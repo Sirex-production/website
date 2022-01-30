@@ -1,0 +1,98 @@
+@import url('//fonts.googleapis.com/css?family=Cuprum');
+/* *{outline: red solid 1px;} */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    transition: .4s;
+}
+
+body
+{    
+    background-color: black;
+    color: #f1f1f1;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 24pt;
+    list-style: none;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./resources/background.jpg");
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#sidebar
+{
+    position: static;
+    background-color: transparent;
+    background-color: rgba(0,0,0, .8);
+    height: 100vh;
+}
+
+#sidebar #logo
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+#sidebar #menu-items #item
+{
+    padding-top: 30%;
+    text-align: center;
+}
+
+#sidebar #menu-items #item a:visited 
+{
+    color: white;
+    font-size: 30pt;
+    border: medium solid;
+    transition: .4s;
+}
+
+#sidebar #menu-items #item a:hover
+{
+    color: white;
+    font-size: 30pt;
+    border: medium solid;
+    transition: .4s;
+}
+
+#sidebar #menu-items #item a:active 
+{
+    color: wheat;
+    font-size: 30pt;
+    border: 15px solid;
+    transition: .1s;
+} 
+
+#content-area #content
+{
+    height: 96vh;
+}
+
+#content-area #footer
+{
+    position: static;
+    background-color: transparent;
+    background-color: rgba(0,0,0, .8);
+    height: 4vh;
+}
+
+#content-area #footer #copyright
+{
+    padding-top: 5%;
+    font-size: 10pt;
+}

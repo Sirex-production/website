@@ -1,0 +1,22 @@
+#contacts-content
+{
+    margin-top: 15%;
+    color: black;
+    animation: fadeInAnimation ease 1s;
+    display: none;
+}
+
+#contacts-content #contacts
+{
+    padding: 2%;
+    border-radius: 25px;
+    background-color: transparent;
+    background-color: rgba(255,255,255, 0.8);
+    font-size: 150%;
+}
+
+#contacts-content #contacts #contact-data
+{
+    color: rgb(77, 77, 77);
+    font-size: 90%;
+}

@@ -1,0 +1,48 @@
+#media-content
+{
+    margin-top: 20%;
+    animation: fadeInAnimation ease 1s;
+    display: none;
+    font-size: 120%;
+}
+
+#media-content #social-networks
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 25px;
+    background-color: transparent;
+    background-color: rgba(255,255,255, 0.8);
+    text-align: center;
+}
+
+#media-content #social-networks img
+{
+    width: 20%;
+}
+
+#media-content #social-networks a
+{
+    color: black;
+}
+
+#media-content #social-networks a:visited 
+{
+    color: black;
+    font-size: 120%;
+    transition: .4s;
+}
+
+#media-content #social-networks a:hover
+{
+    color: black;
+    font-size: 120%;
+    transition: .4s;
+}
+
+#media-content #social-networks a:active 
+{
+    color: black;
+    font-size: 120%;
+    transition: .1s;
+} 

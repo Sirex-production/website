@@ -1,0 +1,139 @@
+@import url('//fonts.googleapis.com/css?family=Cuprum');
+@import url('http://fonts.cdnfonts.com/css/subway-ticker');
+
+/* *{outline: red solid 1px;} */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    transition: .4s;
+}
+
+body
+{    
+    background-color: rgba(49, 40, 68, 1);    
+    background-position: center;
+    background-attachment: fixed;
+    color: #f1f1f1;
+    font-family: 'Cuprum', 'sans-serif';
+    font-size: 24pt;
+    list-style: none;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("./resources/background.jpg"); */
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#footer
+{
+    z-index: 999;
+    margin-top: 97.5vh;
+    position: fixed;
+    background-color: transparent;
+    background-color: rgba(0,0,0, .7);
+}
+
+#footer #copyright
+{
+    padding-left: 85%;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    font-size: 10pt;
+}
+
+#bottom-spacing
+{
+    height: 5%;
+}
+
+#sidebar
+{
+    z-index: 9999;
+    position: fixed;
+    background-color: transparent;
+    background-color: rgba(0,0,0, .7);
+    height: 100vh;
+    font-size: 90%;
+}
+
+#sidebar #logo
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+}
+
+#sidebar #menu-items #item
+{
+    padding-bottom: 30%;
+    text-align: center;
+}
+
+#sidebar #menu-items #item a
+{
+    border-radius: 5px;
+    color: white;
+    transition: .4s;
+    padding: 2%;
+}
+
+#sidebar #menu-items #item a:visited 
+{
+    border-radius: 5px;
+    color: white;
+    font-size: 120%;
+    border: medium solid;
+    transition: .4s;
+    padding: 2%;
+}
+
+#sidebar #menu-items #item a:hover
+{
+    border-radius: 5px;
+    color: white;
+    font-size: 120%;
+    border: medium solid;
+    transition: .4s;
+    padding: 2%;
+}
+
+#sidebar #menu-items #item a:active 
+{
+    border-radius: 5px;
+    color: wheat;
+    font-size: 120%;
+    border: 10px solid;
+    transition: .1s;
+    padding: 2%;
+} 
+
+#content-area #content
+{
+    height: 96vh;
+    padding: 2%;
+}
+
+@keyframes fadeInAnimation 
+{
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+     }
+}

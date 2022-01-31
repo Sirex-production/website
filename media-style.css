@@ -1,0 +1,40 @@
+#media-content
+{
+    margin-top: 25%;
+    animation: fadeInAnimation ease 1s;
+    display: none;
+    font-size: 120%;
+}
+
+#media-content #social-networks
+{
+    background-color: transparent;
+    background-color: rgba(0,0,0, .8);
+    text-align: center;
+}
+
+#media-content #social-networks img
+{
+    width: 20%;
+}
+
+#media-content #social-networks a:visited 
+{
+    color: white;
+    font-size: 120%;
+    transition: .4s;
+}
+
+#media-content #social-networks a:hover
+{
+    color: white;
+    font-size: 120%;
+    transition: .4s;
+}
+
+#media-content #social-networks a:active 
+{
+    color: wheat;
+    font-size: 120%;
+    transition: .1s;
+} 

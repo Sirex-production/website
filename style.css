@@ -112,12 +112,6 @@ ul
     font-size: 10pt;
 }
 
-#media-content
-{
-    animation: fadeInAnimation ease 1s;
-    display: none;
-}
-
 #blog-content
 {
     animation: fadeInAnimation ease 1s;

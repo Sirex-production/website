@@ -1,0 +1,45 @@
+#blog-content
+{
+    animation: fadeInAnimation ease 1s;
+    display: none;
+}
+
+#blog-content #post
+{
+    border-radius: 25px;
+    background-color: transparent;
+    background-color: rgba(255,255,255, 0.8);   
+    color: black;
+    margin-top: 2%;
+}
+
+#blog-content #header
+{
+    font-weight: bold;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+#blog-content #date
+{
+    font-size: 60%;
+    padding-top: 2%;
+    padding-right: 2%;
+    text-align: right;
+}
+
+
+#blog-content #content
+{
+    animation: fadeInAnimation ease 1s;
+    animation-delay: .05s;
+    border-top: 1px solid black;
+    font-size: 70%;
+    height: 60%;
+}
+
+#blog-content #content img
+{
+    border-radius: 25px;
+    width: 100%;
+}

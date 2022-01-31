@@ -1,5 +1,5 @@
 @import url('//fonts.googleapis.com/css?family=Cuprum');
-/* *{outline: red solid 1px;} */
+*{outline: red solid 1px;}
 
 *
 {
@@ -11,6 +11,7 @@
 body
 {    
     background-color: black;
+    background-position: center;
     color: #f1f1f1;
     font-family: 'Cuprum', sans-serif;
     font-size: 24pt;
@@ -34,30 +35,31 @@ ul
 
 #sidebar
 {
-    position: static;
+    position: fixed;
     background-color: transparent;
     background-color: rgba(0,0,0, .8);
     height: 100vh;
+    font-size: 90%;
 }
 
 #sidebar #logo
 {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 
 #sidebar #menu-items #item
 {
-    padding-top: 30%;
+    padding-bottom: 30%;
     text-align: center;
 }
 
 #sidebar #menu-items #item a:visited 
 {
     color: white;
-    font-size: 30pt;
+    font-size: 120%;
     border: medium solid;
     transition: .4s;
 }
@@ -65,7 +67,7 @@ ul
 #sidebar #menu-items #item a:hover
 {
     color: white;
-    font-size: 30pt;
+    font-size: 120%;
     border: medium solid;
     transition: .4s;
 }
@@ -73,26 +75,91 @@ ul
 #sidebar #menu-items #item a:active 
 {
     color: wheat;
-    font-size: 30pt;
-    border: 15px solid;
+    font-size: 120%;
+    border: 10px solid;
     transition: .1s;
 } 
 
 #content-area #content
 {
     height: 96vh;
+    padding: 2%;
 }
 
-#content-area #footer
+#footer
 {
-    position: static;
+    margin-top: 96vh;
+    position: fixed;
     background-color: transparent;
     background-color: rgba(0,0,0, .8);
-    height: 4vh;
 }
 
-#content-area #footer #copyright
+#footer #copyright
 {
-    padding-top: 5%;
+    padding-left: 85%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     font-size: 10pt;
+}
+
+#studio-content #welcome
+{
+    background-color: transparent;
+    background-color: rgba(49, 40, 68, 0.4);    
+    text-align: center;
+    font-size: 50pt;
+}
+
+#studio-content
+{
+    animation: fadeInAnimation ease 1s;
+    display: block;
+}
+
+#games-content
+{
+    animation: fadeInAnimation ease 1s;
+    display: none;
+}
+
+#games-content #no-guns-allowed
+{
+    background-color: black;
+    font-size: 45pt;
+    text-align: center;
+}
+
+#games-content #no-guns-allowed #screenshots img
+{
+    width: 100%;
+}
+
+#media-content
+{
+    animation: fadeInAnimation ease 1s;
+    display: none;
+}
+
+#blog-content
+{
+    animation: fadeInAnimation ease 1s;
+    display: none;
+}
+
+#contacts-content
+{
+    animation: fadeInAnimation ease 1s;
+    display: none;
+}
+
+@keyframes fadeInAnimation 
+{
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+     }
 }

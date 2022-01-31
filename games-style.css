@@ -1,0 +1,45 @@
+#games-content
+{
+    animation: fadeInAnimation ease 1s;
+    display: none;
+}
+
+#games-content #no-guns-allowed
+{
+    font-size: 45pt;
+    font-family: 'Subway Ticker';
+    font-weight: bold;
+    text-align: center;
+}
+
+#games-content #no-guns-allowed #header
+{
+    padding-top: 1%;
+    font-size: 60%;
+    color: #0d0d0d;
+    background-color: #d51c49;
+    border: medium solid #0d0d0d;
+}
+
+#games-content #no-guns-allowed #screenshots img
+{
+    width: 98%;
+    border: medium solid #0d0d0d;
+}
+
+#games-content #no-guns-allowed #description
+{
+    padding: 2%;
+    /* border: medium solid #d51c49; */
+    background-color: #0d0d0d;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30%;
+}
+
+#games-content #no-guns-allowed #links img
+{
+    width: 105%;
+}

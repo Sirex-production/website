@@ -1,0 +1,53 @@
+#studio-content
+{
+    background-color: transparent;
+    background-color: rgba(49, 40, 68, 0.8);    
+    animation: fadeInAnimation ease 1s;
+    display: block;
+}
+
+#studio-content #header
+{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 50pt;
+}
+
+#studio-content #logo
+{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#studio-content #logo img
+{
+    width: 30%;
+}
+
+#studio-content #developers
+{
+    animation: fadeInAnimation ease 1s;
+    animation-delay: .05s;
+    font-size: 70%;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+#studio-content #developers #name
+{
+    background-color: transparent;
+    background-color: rgba(49, 40, 68, 0.8);   
+}
+
+#studio-content #developers img
+{
+    width: 30%;
+}
+
+#studio-content #description
+{
+    animation: fadeInAnimation ease 1s;
+    animation-delay: .05s;
+    border-top: medium solid white;
+    margin-top: 2%;
+}

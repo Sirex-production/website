@@ -26,3 +26,21 @@
     color: rgb(77, 77, 77);
     font-size: 90%;
 }
+
+#contacts-content #contacts #contact-data a:visited 
+{
+    color: rgb(77, 77, 77);
+    font-size: 90%;
+}
+
+#contacts-content #contacts #contact-data a:hover
+{
+    color: rgb(77, 77, 77);
+    font-size: 90%;
+}
+
+#contacts-content #contacts #contact-data a:active 
+{
+    color: rgb(77, 77, 77);
+    font-size: 90%;
+} 

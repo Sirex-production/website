@@ -2,37 +2,39 @@
 
 function showStudioContent()
 {
-    turnOffContent();
+    resetContent();
     document.getElementById('studio-content').style.display = 'block';
 }
 
 function showGamesContent()
 {
-    turnOffContent();
+    resetContent();
     document.getElementById('games-content').style.display = 'block';
+    document.body.style.backgroundColor = 'black';
 }
 
 function showMediaContent()
 {
-    turnOffContent();
+    resetContent();
     document.getElementById('media-content').style.display = 'block';
 }
 
 function showBlogContent()
 {
-    turnOffContent();
+    resetContent();
     document.getElementById('blog-content').style.display = 'block';
 }
 
 function showContactsContent()
 {
-    turnOffContent();
+    resetContent();
     document.getElementById('contacts-content').style.display = 'block';
 }
 
-function turnOffContent()
+function resetContent()
 {
     let content = document.getElementsByClassName('content')[0].children;
+    document.body.style.backgroundColor = 'rgba(49, 40, 68)';
     
 
     for (let i = 0; i < content.length; i++)

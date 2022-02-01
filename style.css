@@ -76,6 +76,12 @@ ul
     margin-top: 30%;
 }
 
+#sidebar #menu-items
+{
+    margin-top: 60%;
+    text-align: center;
+}
+
 #sidebar #menu-items #item
 {
     padding-bottom: 30%;

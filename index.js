@@ -35,7 +35,7 @@ function resetContent()
 {
     let content = document.getElementsByClassName('content')[0].children;
     document.body.style.backgroundColor = 'rgba(49, 40, 68)';
-    
+    // document.body.style.animation = 'gradient 8s ease infinite';
 
     for (let i = 0; i < content.length; i++)
     {

@@ -10,20 +10,28 @@
     transition: .4s;
 }
 
+body 
+{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient 30s ease infinite;
+}
+  
+
 body
 {    
-    background-color: rgba(49, 40, 68);    
+    /* background-color: rgba(49, 40, 68);     */
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #f1f1f1;
     font-family: 'Cuprum', 'sans-serif';
     font-size: 24pt;
     list-style: none;
     text-decoration: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-image: url("./resources/background.jpg"); */
+
 }
+
 
 a
 {
@@ -68,62 +76,55 @@ ul
     font-size: 90%;
 }
 
-#sidebar #logo
+.navbar
+{
+    background-color: transparent;
+    background-color: rgba(0,0,0, .7);
+}
+
+.navbar .navbar-brand
+{
+    width: 4%;
+}
+
+
+.navbar .navbar-brand img
 {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30%;
 }
 
-#sidebar #menu-items
+.navbar .navbar-item a
 {
-    margin-top: 60%;
+    color: white;
+    transition: .4s;
+    padding: 2%;
     text-align: center;
 }
 
-#sidebar #menu-items #item
+.navbar .navbar-item a:visited 
 {
-    padding-bottom: 30%;
+    color: white;
+    transition: .4s;
+    padding: 2%;
     text-align: center;
 }
 
-#sidebar #menu-items #item a
+.navbar .navbar-item a:hover
 {
-    border-radius: 5px;
-    color: white;
+    color: black;
+    background-color: white;
+    font-size: 120%;
     transition: .4s;
-    padding: 2%;
+    text-align: center;
 }
 
-#sidebar #menu-items #item a:visited 
+.navbar .navbar-item a:active 
 {
-    border-radius: 5px;
-    color: white;
-    font-size: 120%;
-    border: medium solid;
-    transition: .4s;
-    padding: 2%;
-}
-
-#sidebar #menu-items #item a:hover
-{
-    border-radius: 5px;
-    color: white;
-    font-size: 120%;
-    border: medium solid;
-    transition: .4s;
-    padding: 2%;
-}
-
-#sidebar #menu-items #item a:active 
-{
-    border-radius: 5px;
-    color: wheat;
-    font-size: 120%;
-    border: 10px solid;
+    color: black;
+    background-color: wheat;
+    font-size: 140%;
     transition: .1s;
-    padding: 2%;
+    text-align: center;
 } 
 
 #content-area #content
@@ -134,12 +135,31 @@ ul
 
 @keyframes fadeInAnimation 
 {
-    0% {
+    0% 
+    {
         transform: translateY(-30px);
         opacity: 0;
     }
-    100% {
+    100% 
+    {
         transform: translateY(0px);
         opacity: 1;
-     }
+    }
+}
+
+
+@keyframes gradient
+{
+    0% 
+    {
+        background-position: 0% 50%;
+    }
+    50% 
+    {
+        background-position: 100% 50%;
+    }
+    100% 
+    {
+        background-position: 0% 50%;
+    }
 }

@@ -2,7 +2,7 @@
 {
     border-radius: 25px;
     background-color: transparent;
-    background-color: rgba(49, 40, 68, 0.8);    
+    background-color: rgba(0, 0, 0, 0.5);    
     animation: fadeInAnimation ease 1s;
     display: block;
 }
@@ -10,20 +10,22 @@
 #studio-content #header
 {
     margin-top: 2%;
-    text-align: center;
+    text-align: left;
     font-size: 90%;
     font-style: italic;
+    padding-top: 3%;
 }
 
 #studio-content #logo
 {
     margin-top: 2%;
     text-align: center;
+    text-align: right;
 }
 
 #studio-content #logo img
 {
-    width: 30%;
+    width: 50%;
 }
 
 #studio-content #developers
@@ -31,25 +33,26 @@
     animation: fadeInAnimation ease 1s;
     animation-delay: .05s;
     font-size: 70%;
-    margin-top: 5%;
+    margin-top: 1%;
     padding-left: 5%;
+    text-align: center;
 }
 
-#studio-content #developers #name
+
+#studio-content #developers #part #name
 {
     background-color: transparent;
-    background-color: rgba(49, 40, 68, 0.8);   
 }
 
-#studio-content #developers img
+#studio-content #developers #part img
 {
-    width: 30%;
+    width: 8%;
 }
 
 #studio-content #description
 {
     border-radius: 25px;
-    font-size: 70%;
+    font-size: 75%;
     animation: fadeInAnimation ease 1s;
     animation-delay: .05s;
     color: black;
@@ -59,4 +62,18 @@
     border: medium solid black;
     margin-top: 2%;
     padding: 1%;
+
+    text-align: center;
+}
+
+#studio-content #latest-project
+{
+    font-size: 54pt;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#studio-content #latest-project img
+{
+    width: 100%;
 }

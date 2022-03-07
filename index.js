@@ -10,7 +10,8 @@ function showGamesContent()
 {
     resetContent();
     document.getElementById('games-content').style.display = 'block';
-    document.body.style.backgroundColor = 'black';
+    document.body.style.background = 'fixed';
+    document.body.style.backgroundColor = '#151515';
 }
 
 function showMediaContent()
@@ -34,8 +35,9 @@ function showContactsContent()
 function resetContent()
 {
     let content = document.getElementsByClassName('content')[0].children;
-    document.body.style.backgroundColor = 'rgba(49, 40, 68)';
-    // document.body.style.animation = 'gradient 8s ease infinite';
+    document.body.style.background = 'linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)';
+    document.body.style.backgroundSize = '300% 300%';
+    document.body.style.animation = 'gradient 30s ease infinite';
 
     for (let i = 0; i < content.length; i++)
     {

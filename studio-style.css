@@ -20,17 +20,11 @@
     color: white;
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-top: 4.5%;
-    margin-bottom: 5%;
-    text-align: left;
-    font-size: 70%;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    text-align: center;
+    font-size: 75%;
     word-spacing: 10%;
-    text-transform: uppercase;
-}
-
-#studio-content #losung #zero-budget
-{
-    font-weight: bold;
 }
 
 #studio-content #logo img
@@ -40,9 +34,9 @@
 
 #studio-content #developers
 {
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
-    font-size: 80%;
+    font-size: 50%;
 }
 
 #studio-content #developers .card
@@ -57,12 +51,42 @@
 #studio-content #developers .card .card-title img
 {
     margin-top: 5%;
-    width: 40%;
+    width: 25%;
+}
+
+#studio-content #welcome
+{
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 10px 0px 0px;
+    font-size: 100%;
+    font-weight: bold;
+
+    line-height: 200px;
+    margin-top: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#studio-content #we-are
+{
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px 0px 8px 8px;
+    font-size: 75%;
+
+    padding: 1%;;
+    text-align: center;
+}
+
+#studio-content #we-are #zero-budget
+{
+    font-weight: bold;
 }
 
 #studio-content #slider
 {
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2%;
 }
 

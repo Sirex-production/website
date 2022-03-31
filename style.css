@@ -13,7 +13,6 @@
 body 
 {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    /* background-color: greenyellow; */
     background-size: 300% 300%;
     animation: gradient 30s ease infinite;
 }
@@ -59,11 +58,6 @@ ul
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
     font-size: 10pt;
-}
-
-#bottom-spacing
-{
-    height: 5%;
 }
 
 #sidebar

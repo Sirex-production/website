@@ -7,7 +7,7 @@
 #games-content #no-guns-allowed
 {
     font-size: 45pt;
-    font-family: 'Electronic Highway Sign';
+    font-family: 'Electronic Highway Sign', 'Arial', 'sans-serif';
     font-weight: bold;
     text-align: center;
 }
@@ -74,7 +74,7 @@
     text-transform: uppercase;
     font-size: 30%;
     margin-bottom: 10%;
-    font-family: 'Electronic Highway Sign';
+    font-family: 'Electronic Highway Sign',  'Arial', 'sans-serif';
 }
 
 #games-content #no-guns-allowed #dev-log #log #header
